@@ -20,8 +20,17 @@ Alguma vez você já se sentiu como se seus colegas de trabalho estivessem falan
 
 ## Dependências
 
-- **Font Awesome**
-- **Framer Motion**
+Back-end (server-app)
+
+- **Express (framework para construção de APIs)**
+- **Dotenv (gerenciamento de variáveis de ambiente)**
+- **Axios (integração com APIs externas)**
+
+Front-end (client-app)
+
+- **Framer Motion (Biblioteca de animações flúidas)**
+- **FontAwesome (Biblioteca para ícones customizáveis)**
+- **Axios (possibilita a execução de requisições HTTP)**
 
 ## Licença
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
