@@ -1,12 +1,18 @@
 
 import './App.css'
+import corpTransIcon from './../public/assets/CORPTRANSLATOR LOGO.png'
 
 function App() {
 
 
   return (
     <>
-        <h1>Main Screen</h1>
+      <section className='app-container'>
+        <div className="introduction">
+          <img src={corpTransIcon} alt="logo - Corporate Translator" className='myLogo' />
+          <h3>Saiba o que você está falando(ou ouvindo)</h3>
+        </div>
+      </section>
     </>
   )
 }
