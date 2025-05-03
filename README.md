@@ -1,12 +1,12 @@
-## Corporate Translator
+# Corporate Translator
 
 Alguma vez você já se sentiu como se seus colegas de trabalho estivessem falando uma língua iliterata, ou teve um pressentimento de que o seu chefe pensa que você nasceu ontem? Seus problemas acabaram! Com o Corporate Translator, você pode traduzir uma frase que normalmente diria em contexto informal, e fazer com que ela se adapte com facilidade ao contexto corporativo. Assim, você consegue entender melhor o que está dizendo (ou ouvindo).
 
-# Features
+## Features
 
 - Tradução instantânea de frases informais para linguagem corporativa.
 - Interface simples e intuitiva, desenvolvida com React e estilizada com animações usando Framer Motion.
 - Backend (Node.js) e integração com a API do Gemini AI para traduções de alta qualidade.
 
 
-# Pré-requisitos
+## Pré-requisitos
