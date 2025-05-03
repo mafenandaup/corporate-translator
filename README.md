@@ -54,5 +54,10 @@ npm install
 ```
 4. Inicialize o backend (certifique-se de estar na pasta server-app)
 ```bash
-npm run dev
+npm start
+```
+ou 
+```bash
+node --watch server.js
+```
 
