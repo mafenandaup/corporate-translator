@@ -18,5 +18,14 @@ Alguma vez você já se sentiu como se seus colegas de trabalho estivessem falan
 
 ## Dependências
 
--- **Font Awesome**
--- **Framer Motion**
+- **Font Awesome**
+- **Framer Motion**
+
+## Instalação
+
+Siga os passos abaixo para instalar e configurar o projeto:
+
+### 1. Clone o repositório
+```bash
+git clone https://github.com/seu-usuario/corporate-translator.git
+cd corporate-translator
