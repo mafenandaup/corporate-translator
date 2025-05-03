@@ -30,11 +30,24 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para ma
 
 Este projeto aceita contribuições diversas, como pull requests, conserto de bugs e feature requests. Caso deseja contribuir, é recomendável que leia as instruções de instalação abaixo:
 
-## Instalação
+### Instalação
 
 Siga os passos abaixo para instalar e configurar o projeto:
 
-### 1. Clone o repositório
+ 1. Clone o repositório
 ```bash
 git clone https://github.com/seu-usuario/corporate-translator.git
 cd corporate-translator
+```
+
+ 2. Instale as dependências no back end:
+```bash
+cd server-app
+npm install
+```
+
+ 3. Instale as dependências no front end (abra um novo terminal):
+```bash
+cd client-app
+cd corptranslate-app
+npm install
