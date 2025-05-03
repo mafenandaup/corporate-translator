@@ -1,3 +1,3 @@
 ## Corporate Translator
 
-Alguma vez você já se sentiu como se seus colegas de trabalho estivessem falando uma língua iliterata, ou teve um pressentimento de que o seu chefe pensa que você nasceu ontem? Seus problemas acabaram! Com o Corporate Translator, você pode traduzir 
+Alguma vez você já se sentiu como se seus colegas de trabalho estivessem falando uma língua iliterata, ou teve um pressentimento de que o seu chefe pensa que você nasceu ontem? Seus problemas acabaram! Com o Corporate Translator, você pode traduzir uma frase que normalmente diria em contexto informal, e fazer com que ela se adapte com facilidade ao contexto corporativo. Assim, você consegue entender melhor o que está dizendo (ou ouvindo).
