@@ -46,7 +46,7 @@ cd server-app
 npm install
 ```
 
- 3. Instale as dependências no front end (abra um novo terminal):
+ 3. Instale as dependências no front end (caso desejar, abra um novo terminal para a instalação):
 ```bash
 cd client-app
 cd corptranslate-app
