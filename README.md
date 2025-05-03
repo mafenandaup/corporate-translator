@@ -51,3 +51,8 @@ npm install
 cd client-app
 cd corptranslate-app
 npm install
+```
+4. Inicialize o backend (certifique-se de estar na pasta server-app)
+```bash
+npm run dev
+
