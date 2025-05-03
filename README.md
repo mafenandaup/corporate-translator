@@ -65,3 +65,22 @@ node --watch server.js
 ```bash
 npm run dev
 ```
+---
+
+## Integração com a API do Gemini
+
+Este projeto utiliza a API do Gemini AI para realizar traduções de frases do dia a dia para o contexto corporativo.
+
+### Como funciona?
+1. O backend envia uma requisição POST para a API do Gemini com o prompt e a frase do usuário.
+2. A API do Gemini responde com a tradução formal e adaptada para o contexto corporativo.
+3. O backend retorna a tradução ao frontend para exibição.
+
+### Configuração
+Você precisará de uma chave de API do Gemini AI. Siga os passos abaixo:
+
+1. **Crie uma conta** no [Gemini AI](https://www.gemini-ai.com).
+2. **Obtenha sua chave de API** no painel de controle do Gemini.
+3. **Adicione a chave ao arquivo `.env` na pasta `server-app`**:
+
+*add depois um exemplo de requisição
