@@ -10,3 +10,13 @@ Alguma vez você já se sentiu como se seus colegas de trabalho estivessem falan
 
 
 ## Pré-requisitos
+
+- **Node.js** (versão 16 ou superior)
+- **npm** (gerenciador de pacotes do Node.js)
+- **Git** (para clonar o repositório)
+- **Vite** (ferramenta de build para o frontend)
+
+## Dependências
+
+-- **Font Awesome**
+-- **Framer Motion**
