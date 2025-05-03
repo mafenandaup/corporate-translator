@@ -6,10 +6,7 @@ function App() {
 
   return (
     <>
-      <div>
         <h1>Main Screen</h1>
-      </div>
-
     </>
   )
 }
