@@ -8,6 +8,8 @@ Alguma vez você já se sentiu como se seus colegas de trabalho estivessem falan
 - Interface simples e intuitiva, desenvolvida com React e estilizada com animações usando Framer Motion.
 - Backend (Node.js) e integração com a API do Gemini AI para traduções de alta qualidade.
 
+## Contribuições
+
 
 ## Pré-requisitos
 
@@ -20,6 +22,9 @@ Alguma vez você já se sentiu como se seus colegas de trabalho estivessem falan
 
 - **Font Awesome**
 - **Framer Motion**
+
+## Licença
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 ## Instalação
 
