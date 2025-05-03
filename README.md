@@ -87,4 +87,4 @@ Você precisará de uma chave de API do Gemini AI. Siga os passos abaixo:
 
 ## Contato
 
-Para tratar questões relacionadas a tratamento de erros ou em relação ao uso deste software, entre em contato via mariafernandamaia@gmail.com .
+Para tratar questões relacionadas a tratamento de erros ou em relação ao uso deste software, entre em contato via mariafernandapmaia@gmail.com .
