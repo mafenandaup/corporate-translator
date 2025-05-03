@@ -60,4 +60,8 @@ ou
 ```bash
 node --watch server.js
 ```
+5. Inicialize o front-end  (certifique-se de estar na pasta corptranslate-app)
 
+```bash
+npm run dev
+```
