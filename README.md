@@ -84,3 +84,7 @@ Você precisará de uma chave de API do Gemini AI. Siga os passos abaixo:
 3. **Adicione a chave ao arquivo `.env` na pasta `server-app`**:
 
 *add depois um exemplo de requisição
+
+## Contato
+
+Para tratar questões relacionadas a tratamento de erros ou em relação ao uso deste software, entre em contato via mariafernandamaia@gmail.com .
