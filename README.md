@@ -26,6 +26,10 @@ Alguma vez você já se sentiu como se seus colegas de trabalho estivessem falan
 ## Licença
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
+## Contribuições 
+
+Este projeto aceita contribuições diversas, como pull requests, conserto de bugs e feature requests. Caso deseja contribuir, é recomendável que leia as instruções de instalação abaixo:
+
 ## Instalação
 
 Siga os passos abaixo para instalar e configurar o projeto:
