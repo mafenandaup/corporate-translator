@@ -19,11 +19,29 @@
 
 body {
   min-height: 100vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(var(--baby-powder), var(--light-cyan));
+  background: linear-gradient(var(--baby-powder)20%, var(--process-cyan));
   color: var(--federal-blue);
 }
+.app-container{
+  min-width: 100vw;
+  display: flex;
+justify-content: center;
+  
+  text-align: center;
 
+  & h3{
+    font-size: 1rem;
+    line-height: 3rem;
+  }
+}
+.myLogo{
+  height: 8rem;
+}
+
+.introduction{
+  filter: drop-shadow(2px 3px 2px rgba(0, 0, 0, 0.225));
+}
