@@ -3,8 +3,8 @@
 --marian-blue: #023e8aff;
 --process-cyan: #48acd3ff;
 --non-photo-blue: #90e0efff;
---light-cyan: #caf0f8ff;
---baby-powder: #f9faf4ff;
+--light-cyan: rgb(169, 213, 222);
+--baby-powder: rgb(240, 241, 234);
 --night: #121212ff;
 }
 
@@ -23,4 +23,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(var(--baby-powder), var(--light-cyan));
 }
