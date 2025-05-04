@@ -1,7 +1,7 @@
 import express from 'express'
+import translationRoute from './routes/translate';
 
 const appCorpTrans = express();
-const translationRoute = require("./services/translate")
 appCorpTrans.use(cors());
 appCorpTrans.use(express.json());
 
