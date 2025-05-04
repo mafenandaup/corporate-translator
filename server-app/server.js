@@ -1,9 +1,10 @@
 import express from 'express'
 
-const appTestRoutes = express();
+const appCorpTrans = express();
+const translationRoute = require("./services/translate")
+appCorpTrans.use(cors());
+appCorpTrans.use(express.json());
 
-appTestRoutes.use("/testroutes", (req, res) => {
-    res.send("Ok, está funcionando")
-})
+appCorpTrans.use('/api/translate', translateRoute);
 
-appTestRoutes.listen(5000, console.log("Server started on port 5000"));
+appTranslateRoutes.listen(5000, console.log("Server started on port 5000"));
