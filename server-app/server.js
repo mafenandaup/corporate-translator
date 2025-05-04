@@ -5,6 +5,6 @@ const translationRoute = require("./services/translate")
 appCorpTrans.use(cors());
 appCorpTrans.use(express.json());
 
-appCorpTrans.use('/api/translate', translateRoute);
+appCorpTrans.use('/api/translate', translationRoute);
 
 appTranslateRoutes.listen(5000, console.log("Server started on port 5000"));
