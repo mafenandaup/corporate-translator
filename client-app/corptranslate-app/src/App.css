@@ -53,8 +53,13 @@ justify-content: center;
   color: var(--marian-blue);
   background-color: var(--baby-powder);
   border-radius: 4px;
+  transition: color ease-in-out 0.3s;
+  border: solid var(--marian-blue) 2px;
 }
 
 .action-btns:hover{
-  
+  color: var(--baby-powder);
+  background-color: var(--federal-blue);
+
 }
+

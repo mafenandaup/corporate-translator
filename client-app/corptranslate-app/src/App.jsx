@@ -1,6 +1,7 @@
 
 import './App.css'
 import corpTransIcon from './../public/assets/CORPTRANSLATOR LOGO.png'
+// eslint-disable-next-line no-unused-vars
 import { motion } from "motion/react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRepeat } from '@fortawesome/free-solid-svg-icons';
