@@ -27,11 +27,13 @@ body {
   color: var(--federal-blue);
 }
 .app-container{
-  min-width: 100vw;
+  min-width: 40rem;
+  height: auto;
+  padding: 2rem;
   display: flex;
 justify-content: center;
-  
   text-align: center;
+  background-color: var(--baby-powder);
 
   & h3{
     font-size: 1rem;
@@ -45,3 +47,4 @@ justify-content: center;
 .introduction{
   filter: drop-shadow(2px 3px 2px rgba(0, 0, 0, 0.225));
 }
+
