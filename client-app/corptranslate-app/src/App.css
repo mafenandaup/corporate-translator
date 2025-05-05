@@ -1,11 +1,11 @@
-:root{
+:root {
   --federal-blue: #03045eff;
---marian-blue: #023e8aff;
---process-cyan: #48acd3ff;
---non-photo-blue: #90e0efff;
---light-cyan: rgb(169, 213, 222);
---baby-powder: rgb(240, 241, 234);
---night: #121212ff;
+  --marian-blue: #023e8aff;
+  --process-cyan: #48acd3ff;
+  --non-photo-blue: #90e0efff;
+  --light-cyan: rgb(169, 213, 222);
+  --baby-powder: rgb(240, 241, 234);
+  --night: #121212ff;
 }
 
 * {
@@ -26,31 +26,33 @@ body {
   background: linear-gradient(var(--baby-powder)20%, var(--process-cyan));
   color: var(--federal-blue);
 }
-.app-container{
+
+.app-container {
   min-width: 40rem;
   height: auto;
   padding: 2rem;
   display: flex;
-justify-content: center;
+  justify-content: center;
   text-align: center;
   align-items: center;
   background-color: rgba(240, 241, 234, 0.336);
   border-radius: 2rem;
 
-  & h3{
+  & h3 {
     font-size: 1rem;
     line-height: 3rem;
   }
 }
-.myLogo{
+
+.myLogo {
   height: 8rem;
 }
 
-.introduction{
+.introduction {
   filter: drop-shadow(2px 3px 2px rgba(0, 0, 0, 0.225));
 }
 
-.action-btns{
+.action-btns {
   padding: 0.2rem;
   color: var(--marian-blue);
   background-color: var(--baby-powder);
@@ -60,14 +62,27 @@ justify-content: center;
   height: 2rem;
 }
 
-.action-btns:hover{
+#translate-btn{
+  color: var(--baby-powder);
+  background-color: var(--marian-blue);
+}
+
+.action-btns:hover {
   color: var(--baby-powder);
   background-color: var(--federal-blue);
   cursor: pointer;
 
 }
 
-.textbox-contain{
+#translate-btn:hover {
+  color: var(--baby-powder);
+  background-color: var(--federal-blue);
+  cursor: pointer;
+
+}
+
+
+.textbox-contain {
   display: flex;
   flex-direction: column;
   width: auto;
@@ -75,20 +90,26 @@ justify-content: center;
   height: auto;
   justify-content: space-between;
   align-items: center;
-  background-color: aliceblue;
 
-  & label{
-    align-self:baseline;
-    color: var(--night);
+  & label {
+    align-self: first baseline;
+    color: var(--marian-blue);
     font-size: 0.8rem;
   }
 }
 
-.textbox{
+.textbox {
   resize: none;
   text-align: center;
   align-content: center;
   height: 5rem;
   width: 20rem;
+  border: solid 1.8px var(--marian-blue);
+  border-radius: 12px
 }
 
+.button-cont {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}

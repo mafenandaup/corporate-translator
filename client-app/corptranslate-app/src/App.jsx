@@ -22,7 +22,7 @@ function App() {
             <textarea name="translated-phrase" id="translated-phrase" className='textbox'></textarea>
             <div className="button-cont">
               <motion.button whileHover={{ scale: 1.1 }} className='action-btns'><FontAwesomeIcon icon={faRepeat}></FontAwesomeIcon> trocar contexto</motion.button>
-              <motion.input whileHover={{ scale: 1.1 }} type="submit" value="Traduzir" className='action-btns' />
+              <motion.input whileHover={{ scale: 1.1 }} type="submit" value="Traduzir" className='action-btns' id='translate-btn' />
             </div>
           </div>
         </div>
