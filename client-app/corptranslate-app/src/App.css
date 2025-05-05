@@ -63,3 +63,16 @@ justify-content: center;
 
 }
 
+.textbox-contain{
+  background-color: #fff;
+  display: flex;
+  width: 30rem;
+  padding: 1.2rem;
+}
+
+.textbox{
+  resize: none;
+  text-align: center;
+  align-content: center;
+}
+

@@ -16,9 +16,9 @@ function App() {
           <img src={corpTransIcon} alt="logo - Corporate Translator" className='myLogo' />
           <h3>Saiba o que você está falando(ou ouvindo)</h3>
           <div className="textbox-contain">
-          <input type="text" name="translate-phrase" id="" className='textbox' placeholder='Sua frase aqui' />
+          <input type="text" name="translation-phrase" id="translation-phrase" className='textbox' placeholder='Sua frase aqui' />
             <motion.button whileHover={{scale: 1.1}} className='action-btns'><FontAwesomeIcon icon={faRepeat}></FontAwesomeIcon></motion.button>
-            <textarea name="" id="" className='textbox'></textarea>
+            <textarea name="translated-phrase" id="translated-phrase" className='textbox' placeholder='Tradução aqui'></textarea>
           </div>
           <motion.input whileHover={{scale: 1.1}}type="submit" value="Traduzir" className='action-btns'/>
         </div>
