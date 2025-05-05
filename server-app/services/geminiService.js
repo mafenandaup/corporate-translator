@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const translateToCorporate = async (phrase) => {
-    const API_URL = 'https://api.gemini-ai.com/translate'; // Substitua pelo endpoint correto
+    const API_URL = 'https://api.gemini-ai.com/translate'; 
     const API_KEY = process.env.GEMINI_API_KEY;
     try {
         const response = await axios.post(API_URL, {

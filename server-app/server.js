@@ -1,6 +1,9 @@
 import express from 'express'
 import translationRoute from './routes/translate';
 
+import dotenv from 'dotenv';
+dotenv.config();
+
 const appCorpTrans = express();
 appCorpTrans.use(cors());
 appCorpTrans.use(express.json());
