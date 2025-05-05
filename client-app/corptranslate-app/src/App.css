@@ -35,7 +35,7 @@ body {
   justify-content: center;
   text-align: center;
   align-items: center;
-  background-color: rgba(240, 241, 234, 0.336);
+  background-color: rgba(240, 241, 234, 0.548);
   border-radius: 2rem;
 
   & h3 {
@@ -85,14 +85,15 @@ body {
 .textbox-contain {
   display: flex;
   flex-direction: column;
-  width: auto;
+  width: 22rem;
   padding: 1.2rem;
   height: auto;
   justify-content: space-between;
   align-items: center;
+  background-color: antiquewhite;
 
   & label {
-    align-self: first baseline;
+    align-self: baseline;
     color: var(--marian-blue);
     font-size: 0.8rem;
   }
