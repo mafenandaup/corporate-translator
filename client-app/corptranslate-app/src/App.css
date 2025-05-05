@@ -33,7 +33,9 @@ body {
   display: flex;
 justify-content: center;
   text-align: center;
-  background-color: var(--baby-powder);
+  align-items: center;
+  background-color: rgba(240, 241, 234, 0.336);
+  border-radius: 2rem;
 
   & h3{
     font-size: 1rem;
@@ -55,24 +57,38 @@ justify-content: center;
   border-radius: 4px;
   transition: color ease-in-out 0.3s;
   border: solid var(--marian-blue) 2px;
+  height: 2rem;
 }
 
 .action-btns:hover{
   color: var(--baby-powder);
   background-color: var(--federal-blue);
+  cursor: pointer;
 
 }
 
 .textbox-contain{
-  background-color: #fff;
   display: flex;
-  width: 30rem;
+  flex-direction: column;
+  width: auto;
   padding: 1.2rem;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+
+  & label{
+    align-self:baseline;
+    color: var(--night);
+    font-size: 0.8rem;
+  }
 }
 
 .textbox{
   resize: none;
   text-align: center;
   align-content: center;
+  height: 5rem;
+  width: 20rem;
 }
 

@@ -16,11 +16,15 @@ function App() {
           <img src={corpTransIcon} alt="logo - Corporate Translator" className='myLogo' />
           <h3>Saiba o que você está falando(ou ouvindo)</h3>
           <div className="textbox-contain">
-          <input type="text" name="translation-phrase" id="translation-phrase" className='textbox' placeholder='Sua frase aqui' />
-            <motion.button whileHover={{scale: 1.1}} className='action-btns'><FontAwesomeIcon icon={faRepeat}></FontAwesomeIcon></motion.button>
-            <textarea name="translated-phrase" id="translated-phrase" className='textbox' placeholder='Tradução aqui'></textarea>
+            <label htmlFor="translation-phrase">Linguagem comum</label>
+            <input type="text" name="translation-phrase" id="translation-phrase" className='textbox' />
+            <label htmlFor="translated-phrase">Linguagem corporativa</label>
+            <textarea name="translated-phrase" id="translated-phrase" className='textbox'></textarea>
+            <div className="button-cont">
+              <motion.button whileHover={{ scale: 1.1 }} className='action-btns'><FontAwesomeIcon icon={faRepeat}></FontAwesomeIcon> trocar contexto</motion.button>
+              <motion.input whileHover={{ scale: 1.1 }} type="submit" value="Traduzir" className='action-btns' />
+            </div>
           </div>
-          <motion.input whileHover={{scale: 1.1}}type="submit" value="Traduzir" className='action-btns'/>
         </div>
       </section>
     </>
