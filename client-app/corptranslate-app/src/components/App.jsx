@@ -1,6 +1,6 @@
 
 import './App.css'
-import Buttons from './support-btns/Buttons';
+import  SupportButtons from './support-btns/Buttons';
 import corpTransIcon from './../../public/assets/CORPTRANSLATOR LOGO.png'
 // eslint-disable-next-line no-unused-vars
 import { motion } from "motion/react"
@@ -29,7 +29,7 @@ function App() {
           </div>
         </div>
       </section>
-      <Buttons></Buttons>
+      <SupportButtons />
     </>
   )
 }

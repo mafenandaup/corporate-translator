@@ -1,6 +1,21 @@
+:root {
+    --federal-blue: #03045eff;
+    --marian-blue: #023e8aff;
+    --process-cyan: #48acd3ff;
+    --non-photo-blue: #90e0efff;
+    --light-cyan: rgb(169, 213, 222);
+    --baby-powder: rgb(240, 241, 234);
+    --night: #121212ff;
+}
 
-  
-  .support-btns{
+.button-cont {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    justify-self: center;
+}
+
+.support-btns {
     color: var(--federal-blue);
     background-color: var(--light-cyan);
     border: solid 0px;
@@ -8,12 +23,20 @@
     border-radius: 50%;
     height: 40px;
     width: 40px;
-  }
-  
-  .support-btns-contain{
+    transition: color ease-out 0.5s;
+}
+
+.support-btns-contain {
     display: flex;
     flex-direction: row;
     align-self: center;
     background-color: #fff;
     width: auto;
-  }
+}
+
+.support-btns:hover {
+    color: var(--baby-powder);
+    background-color: var(--federal-blue);
+    filter: drop-shadow(3px 4px 10px var(--marian-blue));
+    cursor: pointer;
+}

@@ -3,17 +3,19 @@ import './Buttons.css'
 import { motion } from "motion/react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons' 
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
-function Buttons() {
+function SupportButtons() {
 
     return (
         <>
-                <motion.button whileHover={{ scale: 1.1 }} className='support-btns'><FontAwesomeIcon icon={faLinkedinIn} size='2x'></FontAwesomeIcon></motion.button>
-                <motion.button whileHover={{ scale: 1.1 }} className='support-btns'><FontAwesomeIcon icon={faGithub} size='2x'></FontAwesomeIcon></motion.button>
-                <motion.button whileHover={{ scale: 1.1 }} className='support-btns'><FontAwesomeIcon icon={faEnvelope} size='2x'></FontAwesomeIcon></motion.button>
+            <div className="button-cont">
+                <motion.button whileHover={{ scale: 1.2 }} className='support-btns'><FontAwesomeIcon icon={faLinkedinIn} size='2x'></FontAwesomeIcon></motion.button>
+                <motion.button whileHover={{ scale: 1.2 }} className='support-btns'><FontAwesomeIcon icon={faGithub} size='2x'></FontAwesomeIcon></motion.button>
+                <motion.button whileHover={{ scale: 1.2 }} className='support-btns'><FontAwesomeIcon icon={faEnvelope} size='2x'></FontAwesomeIcon></motion.button>
+            </div>
         </>
     );
 }
 
-export default Buttons
+export default SupportButtons
