@@ -54,5 +54,30 @@ body {
   filter: drop-shadow(2px 3px 2px rgba(0, 0, 0, 0.225));
 }
 
+@media (max-width: 854px) {
+  .app-container {
+    min-width: 30rem;
+  
+  }
+  
+  
+}
 
+@media (max-width: 554px) {
+  .app-container {
+    min-width: 25rem;
+  
+  }
+  
+  
+}
 
+  
+@media (max-height: 354px) {
+  .app-container {
+    min-width: 15rem;
+  
+  }
+  
+  
+}
