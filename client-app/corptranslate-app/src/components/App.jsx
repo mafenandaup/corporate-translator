@@ -18,8 +18,8 @@ function App() {
         <div className="introduction">
           <img src={corpTransIcon} alt="logo - Corporate Translator" className='myLogo' />
           <h3>Saiba o que você está falando(ou ouvindo)</h3>
-          <TranslateForms />
         </div>
+        <TranslateForms />
       </section>
       <SupportButtons />
     </>
