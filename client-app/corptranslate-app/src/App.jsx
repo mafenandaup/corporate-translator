@@ -5,7 +5,7 @@ import corpTransIcon from './../public/assets/CORPTRANSLATOR LOGO.png'
 import { motion } from "motion/react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRepeat, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import {  } from '@fortawesome/free-brands-svg-icons' 
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons' 
 
 function App() {
 
@@ -28,10 +28,10 @@ function App() {
           </div>
         </div>
       </section>
-      <div className="support-btns-contain">
-        <button className='support-btns'><FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon></button>
-        <button className='support-btns'><FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon></button>
-        <button className='support-btns'><FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon></button>
+           <div className="support-btns-contain">
+        <motion.button whileHover={{scale: 1.1}} className='support-btns'><FontAwesomeIcon icon={faLinkedinIn} size='2x'></FontAwesomeIcon></motion.button>
+        <motion.button whileHover={{scale: 1.1}} className='support-btns'><FontAwesomeIcon icon={faGithub}size='2x'></FontAwesomeIcon></motion.button>
+        <motion.button whileHover={{scale: 1.1}} className='support-btns'><FontAwesomeIcon icon={faEnvelope} size='2x'></FontAwesomeIcon></motion.button>
       </div>
     </>
   )

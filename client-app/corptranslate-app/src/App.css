@@ -37,6 +37,7 @@ body {
   align-items: center;
   background-color: rgba(240, 241, 234, 0.548);
   border-radius: 2rem;
+  margin-bottom: 3rem;
 
   & h3 {
     font-size: 1rem;
@@ -119,6 +120,16 @@ body {
   color: var(--federal-blue);
   background-color: var(--light-cyan);
   border: solid 0px;
-  padding: 0.6rem;
+  padding: 0.3rem;
   border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.support-btns-contain{
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  background-color: #fff;
+  width: auto;
 }
