@@ -1,0 +1,19 @@
+
+  
+  .support-btns{
+    color: var(--federal-blue);
+    background-color: var(--light-cyan);
+    border: solid 0px;
+    padding: 0.3rem;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .support-btns-contain{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    background-color: #fff;
+    width: auto;
+  }
