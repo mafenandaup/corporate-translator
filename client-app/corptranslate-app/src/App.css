@@ -114,3 +114,11 @@ body {
   gap: 1rem;
   padding: 1rem;
 }
+
+.support-btns{
+  color: var(--federal-blue);
+  background-color: var(--light-cyan);
+  border: solid 0px;
+  padding: 0.6rem;
+  border-radius: 50%;
+}

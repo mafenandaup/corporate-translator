@@ -4,7 +4,8 @@ import corpTransIcon from './../public/assets/CORPTRANSLATOR LOGO.png'
 // eslint-disable-next-line no-unused-vars
 import { motion } from "motion/react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faRepeat } from '@fortawesome/free-solid-svg-icons';
+import { faRepeat, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import {  } from '@fortawesome/free-brands-svg-icons' 
 
 function App() {
 
@@ -27,6 +28,11 @@ function App() {
           </div>
         </div>
       </section>
+      <div className="support-btns-contain">
+        <button className='support-btns'><FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon></button>
+        <button className='support-btns'><FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon></button>
+        <button className='support-btns'><FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon></button>
+      </div>
     </>
   )
 }
