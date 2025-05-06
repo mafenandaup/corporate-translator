@@ -7,3 +7,32 @@
     --baby-powder: rgb(240, 241, 234);
     --night: #121212ff;
   }
+
+  .textbox-contain {
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    padding: 1.2rem;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+  
+    & label {
+      align-self: baseline;
+      color: var(--marian-blue);
+      font-size: 0.8rem;
+    }
+  }
+  
+  .textbox {
+    resize: none;
+    text-align: center;
+    align-content: center;
+    height: 5rem;
+    width: 20rem;
+    border: solid 1.8px var(--marian-blue);
+    border-radius: 12px
+  }
+  
+  

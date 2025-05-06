@@ -1,8 +1,8 @@
 import './Forms.css'
+import InputBtns from '../Input-btns/InputBtns';
 // eslint-disable-next-line no-unused-vars
 import { motion } from "motion/react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faRepeat } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -11,8 +11,13 @@ function TranslateForms() {
 
     return (
         <>
-
-
+            <div className="textbox-contain">
+                <label htmlFor="translation-phrase">Linguagem comum</label>
+                <input type="text" name="translation-phrase" id="translation-phrase" className='textbox' />
+                <label htmlFor="translated-phrase">Linguagem corporativa</label>
+                <textarea name="translated-phrase" id="translated-phrase" className='textbox'></textarea>
+                <InputBtns/>
+            </div>
         </>
     )
 }
