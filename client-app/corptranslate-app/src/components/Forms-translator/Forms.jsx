@@ -13,9 +13,9 @@ function TranslateForms() {
         <>
             <div className="textbox-contain">
                 <label htmlFor="translation-phrase">Linguagem comum</label>
-                <input type="text" name="translation-phrase" id="translation-phrase" className='textbox' />
+                <textarea type="text" name="translation-phrase" id="translation-phrase" className='textbox' />
                 <label htmlFor="translated-phrase">Linguagem corporativa</label>
-                <textarea name="translated-phrase" id="translated-phrase" className='textbox'></textarea>
+                <textarea name="translated-phrase" id="translated-phrase" className='textbox' disabled='disabled'></textarea>
                 <InputBtns/>
             </div>
         </>

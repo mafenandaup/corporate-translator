@@ -1,38 +1,47 @@
 :root {
-    --federal-blue: #03045eff;
-    --marian-blue: #023e8aff;
-    --process-cyan: #48acd3ff;
-    --non-photo-blue: #90e0efff;
-    --light-cyan: rgb(169, 213, 222);
-    --baby-powder: rgb(240, 241, 234);
-    --night: #121212ff;
-  }
+  --federal-blue: #03045eff;
+  --marian-blue: #023e8aff;
+  --process-cyan: #48acd3ff;
+  --non-photo-blue: #90e0efff;
+  --light-cyan: rgb(169, 213, 222);
+  --baby-powder: rgb(240, 241, 234);
+  --night: #121212ff;
+}
 
-  .textbox-contain {
-    display: flex;
-    flex-direction: column;
-    width: 22rem;
-    padding: 1.2rem;
-    height: auto;
-    justify-content: space-between;
-    align-items: center;
-    background-color: antiquewhite;
-  
-    & label {
-      align-self: baseline;
-      color: var(--marian-blue);
-      font-size: 0.8rem;
-    }
+.textbox-contain {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  padding: 1.2rem;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+
+  & label {
+    align-self: baseline;
+    color: var(--marian-blue);
+    font-size: 0.8rem;
   }
-  
-  .textbox {
-    resize: none;
-    text-align: center;
-    align-content: center;
-    height: 5rem;
-    width: 20rem;
-    border: solid 1.8px var(--marian-blue);
-    border-radius: 12px
-  }
-  
-  
+}
+
+.textbox {
+  resize: none;
+  text-align: center;
+  align-content: center;
+  height: 5rem;
+  width: 23rem;
+  background-color: var(--baby-powder);
+  border: solid 1.8px var(--marian-blue);
+  border-radius: 12px;
+  text-align: start;
+  align-content: flex-start;
+  padding: 0.8rem;
+}
+
+label {
+  margin-top: 1.8rem;
+}
+
+#translated-phrase:hover {
+  cursor: not-allowed;
+}
