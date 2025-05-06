@@ -1,6 +1,6 @@
 
 import './App.css'
-import  SupportButtons from './support-btns/Buttons';
+import  SupportButtons from './support-btns/SupportButtons';
 import corpTransIcon from './../../public/assets/CORPTRANSLATOR LOGO.png'
 // eslint-disable-next-line no-unused-vars
 import { motion } from "motion/react"
@@ -17,6 +17,7 @@ function App() {
         <div className="introduction">
           <img src={corpTransIcon} alt="logo - Corporate Translator" className='myLogo' />
           <h3>Saiba o que você está falando(ou ouvindo)</h3>
+          </div>
           <div className="textbox-contain">
             <label htmlFor="translation-phrase">Linguagem comum</label>
             <input type="text" name="translation-phrase" id="translation-phrase" className='textbox' />
@@ -27,7 +28,6 @@ function App() {
               <motion.input whileHover={{ scale: 1.1 }} type="submit" value="Traduzir" className='action-btns' id='translate-btn' />
             </div>
           </div>
-        </div>
       </section>
       <SupportButtons />
     </>
