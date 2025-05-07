@@ -10,9 +10,9 @@ function SupportButtons() {
     return (
         <>
             <div className="button-cont">
-                <a href="https://www.linkedin.com/in/mariafpm/"><motion.button whileHover={{ scale: 1.2 }} className='support-btns'><FontAwesomeIcon icon={faLinkedinIn} size='2x'></FontAwesomeIcon></motion.button></a>
-                <a href="https://github.com/mafenandaup"><motion.button whileHover={{ scale: 1.2 }} className='support-btns'><FontAwesomeIcon icon={faGithub} size='2x'></FontAwesomeIcon></motion.button></a>
-                <a href="mailto:mariafernandapmaia@gmail.com"><motion.button whileHover={{ scale: 1.2 }} className='support-btns'><FontAwesomeIcon icon={faEnvelope} size='2x'></FontAwesomeIcon></motion.button></a>
+                <a href="https://www.linkedin.com/in/mariafpm/" target='_blank'><motion.button whileHover={{ scale: 1.2 }} className='support-btns'><FontAwesomeIcon icon={faLinkedinIn} size='2x'></FontAwesomeIcon></motion.button></a>
+                <a href="https://github.com/mafenandaup" target='_blank'><motion.button whileHover={{ scale: 1.2 }} className='support-btns'><FontAwesomeIcon icon={faGithub} size='2x'></FontAwesomeIcon></motion.button></a>
+                <a href="mailto:mariafernandapmaia@gmail.com" target='_blank'><motion.button whileHover={{ scale: 1.2 }} className='support-btns'><FontAwesomeIcon icon={faEnvelope} size='2x'></FontAwesomeIcon></motion.button></a>
             </div>
         </>
     );
