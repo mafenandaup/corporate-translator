@@ -1,5 +1,3 @@
-
-
 import './InputBtns.css'
 // eslint-disable-next-line no-unused-vars
 import { motion } from "motion/react"
@@ -7,9 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBroom } from '@fortawesome/free-solid-svg-icons';
 
 
-
-function InputBtns() {
-
+function InputBtns({}) {
 
     return (
         <>
