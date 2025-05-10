@@ -5,7 +5,7 @@ import InputBtns from '../Input-btns/InputBtns';
 import { motion } from "motion/react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRepeat } from '@fortawesome/free-solid-svg-icons';
-// import React, { useState } from 'react'; comment 4 now
+import api from './../../services/api'
 
 
 
@@ -39,14 +39,10 @@ function TranslateForms() {
                 body: JSON.stringify({ context, phrase: InputTranslation }),
             });
 
-            if (!response.ok) {
-                throw new Error(`erro HTTP: ${response.status}`);
-            }
-
             const data = await response.json();
             setInputTranslated(data.translatedText);
         } catch (error) {
-            console.error("erro ao traduzir:", error);
+            console.error("Erro ao traduzir", error);
         }
     };
 

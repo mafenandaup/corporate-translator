@@ -2,11 +2,10 @@ import express from "express";
 import { translatePhrase } from "./api-setup.mjs";
 
 const appCorpTranslate = express();
-
 appCorpTranslate.use(express.json());
 
+
 appCorpTranslate.post("/api/translate", async (req, res) => {
-    console.log("Corpo da requisição:", req.body);
     const { context, phrase } = req.body;
     try {
         const result = await translatePhrase(context, phrase);
@@ -18,5 +17,6 @@ appCorpTranslate.post("/api/translate", async (req, res) => {
 });
 
 appCorpTranslate.listen(3000, () => {
-    console.log("Funcionando!");
+  console.log("Funcionando!");
 });
+
