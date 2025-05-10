@@ -24,7 +24,7 @@ const switchContext= async () => {
   const response = await fetch("/api/translate", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ context: newContext, phrase: InputTranslation }),
+    body: JSON.stringify({ context: newContext, phrase: " " }),
   });
   const data = await response.json();
   setInputTranslated(data.translatedText);
