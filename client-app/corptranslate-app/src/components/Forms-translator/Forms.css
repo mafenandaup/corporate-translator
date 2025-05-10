@@ -45,3 +45,21 @@ label {
 #translated-phrase:hover {
   cursor: not-allowed;
 }
+
+  .action-btns:hover {
+    color: var(--baby-powder);
+    background-color: var(--federal-blue);
+    cursor: pointer;
+  
+  }
+
+    .action-btns {
+    padding: 0.2rem;
+    color: var(--marian-blue);
+    background-color: var(--baby-powder);
+    border-radius: 4px;
+    transition: color ease-in-out 0.3s;
+    border: solid var(--marian-blue) 2px;
+    height: 2rem;
+  }
+  
