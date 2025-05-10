@@ -13,7 +13,7 @@ function TranslateForms() {
 
     const [InputTranslation, setInputTranslation] = useState("");
     const [InputTranslated, setInputTranslated] = useState("");
-    const [context, setContext] = useState("corporate");
+    const [context, setContext] = useState("corporativo");
 
     const switchContext = async () => {
         const newContext = context === "cotidiano" ? "corporativo" : "cotidiano";
