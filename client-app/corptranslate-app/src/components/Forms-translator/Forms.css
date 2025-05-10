@@ -21,6 +21,7 @@
     align-self: baseline;
     color: var(--marian-blue);
     font-size: 0.8rem;
+  
   }
 }
 
@@ -37,6 +38,7 @@
   align-content: flex-start;
   padding: 0.8rem;
 }
+
 
 #translated-phrase:hover {
   cursor: not-allowed;
@@ -59,3 +61,6 @@
     height: 2rem;
   }
   
+  #switch-context{
+    margin: 2rem;
+  }

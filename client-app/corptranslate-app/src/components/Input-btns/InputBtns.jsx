@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBroom } from '@fortawesome/free-solid-svg-icons';
 
-
+// aqui os botões de input recebem a função cleartext como parâmetro.
 function InputBtns({ clearText}) {
 
     return (
