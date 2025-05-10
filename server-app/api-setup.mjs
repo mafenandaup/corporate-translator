@@ -1,3 +1,4 @@
+
 import { config } from "dotenv";
 import { GoogleGenAI } from "@google/genai";
 
@@ -15,6 +16,6 @@ export async function translatePhrase(context, phrase) {
     contents: `${prompt} Por favor, imprima:"${phrase}"`,
   });
 
-  return { translatedText : response.text };
+  return { translatedText: response.text };
 }
 
