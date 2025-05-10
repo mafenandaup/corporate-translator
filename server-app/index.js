@@ -1,23 +1,13 @@
-import { GoogleGenerativeAI } from "@google/generative-ai";
-import dotenv from "dotenv";
+import { GoogleGenAI } from "@google/genai";
 
-dotenv.config();
+const ai = new GoogleGenAI({ apiKey: "AIzaSyCd0y4zEWmdLO9xHWwJ_9l8ViCAOgvSjgE" });
 
-const genAI = new GoogleGenerativeAI(process.env.API_KEY);
-
-async function run() {
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
-
-  const prompt = "Explique a teoria da relatividade de forma simples.";
-
-  try {
-    const result = await model.generateContent(prompt);
-    const response = await result.response;
-    const text = await response.text();
-    console.log("Resposta do Gemini:", text);
-  } catch (error) {
-    console.error("Erro ao gerar conteúdo:", error);
-  }
+async function main() {
+  const response = await ai.models.generateContent({
+    model: "gemini-2.0-flash",
+    contents: "Explain how AI works in a few words",
+  });
+  console.log(response.text);
 }
 
-run();
+await main();
