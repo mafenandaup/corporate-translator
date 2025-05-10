@@ -25,6 +25,7 @@ Back-end (server-app)
 - **Express (framework para construção de APIs)**
 - **Dotenv (gerenciamento de variáveis de ambiente)**
 - **Axios (integração com APIs externas)**
+- **Nodemon (Inicialização automática de scripts)**
 
 Front-end (client-app)
 
