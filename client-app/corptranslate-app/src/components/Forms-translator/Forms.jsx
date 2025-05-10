@@ -11,8 +11,8 @@ import { faRepeat } from '@fortawesome/free-solid-svg-icons';
 
 function TranslateForms() {
 
-    const [InputTranslation, setInputTranslation] = useState(" ");
-    const [InputTranslated, setInputTranslated] = useState(" ");
+const [InputTranslation, setInputTranslation] = useState("");
+const [InputTranslated, setInputTranslated] = useState("");
     const [context, setContext] = useState("corporate");
 
 const switchContext= async () => {
@@ -31,7 +31,7 @@ const switchContext= async () => {
   setInputTranslated(data.translatedText);
     };
     
-    const handleTranslate = async () => {
+const handleTranslate = async () => {
   try {
     const response = await fetch("/api/translate", {
       method: "POST",
@@ -41,9 +41,10 @@ const switchContext= async () => {
     const data = await response.json();
     setInputTranslated(data.translatedText);
   } catch (error) {
-    console.error("Erro ao traduzir:", error);
+    console.error("erro ao traduzir", error);
   }
 };
+
 
     return (
         <>
@@ -53,7 +54,7 @@ const switchContext= async () => {
                 <textarea type="text" name="translation-phrase" id="translation-phrase" value={InputTranslation} onChange={(event) => setInputTranslation(event.target.value)} className='textbox' />
                 <motion.button whileHover={{ scale: 1.1 }} className='action-btns' id='switch-context' onClick={switchContext}>Trocar contexto <FontAwesomeIcon icon={faRepeat}></FontAwesomeIcon></motion.button>
                 <label htmlFor="translated-phrase">{context === "corporativo" ? "Linguagem corporativa" : "Linguagem comum"}</label>
-                <textarea name="translated-phrase" id="translated-phrase" className='textbox' value={InputTranslated} disabled='disabled'></textarea>
+                <textarea name="translated-phrase" id="translated-phrase"className="textbox" value={InputTranslated} disabled></textarea>
                 <InputBtns clearText={() => {
                     setInputTranslation("");
                     setInputTranslated("");
