@@ -1,7 +1,15 @@
 import express from "express";
 import { translatePhrase } from "./api-setup.mjs";
+import cors from 'cors';
 
 const appCorpTranslate = express();
+
+appCorpTranslate.use(cors({
+  origin: 'http://localhost:5173',
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+}));
+
 appCorpTranslate.use(express.json());
 
 
