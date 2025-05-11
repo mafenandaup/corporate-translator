@@ -92,9 +92,18 @@ Você precisará de uma chave de API do Gemini AI. Siga os passos abaixo:
 
 1. **Crie uma conta** no [Gemini AI](https://www.gemini-ai.com).
 2. **Obtenha sua chave de API** no painel de controle do Gemini.
-3. **Adicione a chave ao arquivo `.env` na pasta `server-app`**:
+3. Selecione o seu projeto entre os disponíveis 
 
-*add depois um exemplo de requisição
+(caso necessário, crie uma conta no fire base e crie um projeto com a mesma conta que deseja obter a API KEY do gemini).
+
+4. Em seguida, instale o seguinte pacote
+```bash
+npm i @google/genai
+```
+
+4. **Adicione a chave ao arquivo `.env` na pasta `server-app`**:
+
+Nesse projeto, optei por usar o modelo Flash 2.0. Verifique se o modelo usado no seu projeto não possui custo adicional.
 
 ## Contato
 
