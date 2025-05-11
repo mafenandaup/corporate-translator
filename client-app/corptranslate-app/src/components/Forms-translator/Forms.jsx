@@ -5,8 +5,6 @@ import InputBtns from '../Input-btns/InputBtns';
 import { motion } from "motion/react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRepeat } from '@fortawesome/free-solid-svg-icons';
-import api from './../../services/api'
-
 
 
 function TranslateForms() {
@@ -21,11 +19,12 @@ function TranslateForms() {
         setInputTranslation('');
         setInputTranslated('');
 
-        const response = await fetch("/api/translate", {
+        const response = await fetch("http://localhost:3000/api/translate", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ context, phrase: InputTranslation }),
         });
+
 
         const data = await response.json();
         setInputTranslated(data.translatedText);
@@ -33,7 +32,7 @@ function TranslateForms() {
 
     const handleTranslate = async () => {
         try {
-            const response = await fetch("/api/translate", {
+            const response = await fetch("http://localhost:3000/api/translate", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ context, phrase: InputTranslation }),

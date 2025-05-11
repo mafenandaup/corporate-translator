@@ -26,6 +26,7 @@ Back-end (server-app)
 - **Dotenv (gerenciamento de variáveis de ambiente)**
 - **Axios (integração com APIs externas)**
 - **Nodemon (Inicialização automática de scripts)**
+- **CORS (Permite que o Front-end acesse recursos do back)**
 
 Front-end (client-app)
 
