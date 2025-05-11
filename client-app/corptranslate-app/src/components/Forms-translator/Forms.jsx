@@ -39,7 +39,7 @@ function TranslateForms() {
             });
 
             const data = await response.json();
-            setInputTranslated(data.translatedText);
+             setInputTranslated(typeof data.translatedText === 'string' ? data.translatedText : JSON.stringify(data.translatedText));
         } catch (error) {
             console.error("Erro ao traduzir", error);
         }

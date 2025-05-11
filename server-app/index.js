@@ -17,7 +17,7 @@ appCorpTranslate.post("/api/translate", async (req, res) => {
     const { context, phrase } = req.body;
     try {
         const result = await translatePhrase(context, phrase);
-        res.json({ translatedText: result });
+        res.json({ translatedText: result});
     } catch (error) {
         console.error("Erro ao traduzir:", error);
         res.status(500).json({ error: "Erro ao traduzir" });
