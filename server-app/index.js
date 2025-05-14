@@ -1,5 +1,5 @@
 import express from "express";
-import { translatePhrase } from "./api-setup.mjs";
+import { translatePhrase } from "./api/api-setup.mjs";
 import cors from 'cors';
 
 const appCorpTranslate = express();
@@ -27,4 +27,4 @@ appCorpTranslate.post("/api/translate", async (req, res) => {
 appCorpTranslate.listen(3000, () => {
   console.log("Funcionando!");
 });
-
+ 
