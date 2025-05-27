@@ -8,8 +8,6 @@ Alguma vez você já se sentiu como se seus colegas de trabalho estivessem falan
 - Interface simples e intuitiva, desenvolvida com React e estilizada com animações usando Framer Motion.
 - Backend (Node.js) e integração com a API do Gemini AI para traduções de alta qualidade.
 
-## Contribuições
-
 
 ## Pré-requisitos
 
