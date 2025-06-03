@@ -45,7 +45,7 @@ Siga os passos abaixo para instalar e configurar o projeto:
 
  1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/corporate-translator.git
+git clone https://github.com/mafenandaup/corporate-translator.git
 cd corporate-translator
 ```
 
